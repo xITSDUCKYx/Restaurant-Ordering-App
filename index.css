@@ -1,0 +1,260 @@
+:root {
+    --main-color: #16db99;
+}
+
+body {
+    font-size: .9em;
+    margin: 0;
+    position: relative;
+    font-family: 'Smythe',Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.logo-title,
+.logo-slogan{
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 0 0 2px #000;
+}
+
+.logo-title {
+    font-size: 2.44rem;
+}
+
+.logo-slogan {
+    font-size: 1.4rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+header {
+    /* background-color: #757575; */
+    background-image: url("/images/burger.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    color: #fff;
+    padding: 1em 0 2em;
+    height: 200px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.container {
+    margin: 0 2em ;
+}
+
+
+
+/*--------- Food Selection ----------*/
+.food-details h2,
+.food-details p {
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+food-details {
+    
+}
+
+.food-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 2em;
+    padding-bottom: 3em;
+    border-bottom:1px solid #d2e2e2;
+    
+}
+
+.food-inner {
+    display: flex;
+    
+    
+    /* align-items: flex-start; */
+    
+}
+
+.food-emoji {
+    width: 1.4em;
+    margin: 0;
+    font-size: 4em;
+    
+}
+
+.food-contents {
+    color: #8B8B8B;
+}
+
+.food-btn {
+    font-family: 'inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight:200;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    padding: .2em .4em
+}
+/*-------- Checkout ----------*/
+#checkout  {
+    
+}
+.checkout-title {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.checkout-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+    
+}
+
+.checkout-price {
+   
+}
+
+
+.checkout-food-item-container{
+   display: flex;
+   align-items: center;
+   
+}
+
+
+.checkout-food-item{
+    font-size: 1.75rem;
+    
+    margin: 0;
+}
+
+.checkout-remove-btn{
+    border: none;
+    background-color: #fff;
+    color: #bbb;
+    font-size: 0.75rem;
+   
+}
+
+.checkout-total {
+    font-size: 1.75rem;
+}
+
+.checkout-price{
+    font-size: 1.25rem;
+    margin-left: auto;
+    margin-top: 0;
+    
+    
+}
+
+.checkout-comfirmation-wrapper{
+    background-color: #ECFDF5;
+    text-align: center;
+    margin: 2em;;
+    padding: .5em;
+}
+
+.checkout-comfirmation{
+    font-size: 1.5rem; 
+    color: #065f46;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- Modal -----------*/
+
+#modal {
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding:.5em;
+    margin: .5em;
+    text-align: center;
+    box-shadow: 1px 1px 99px #999;
+    font-size: 1.25rem;
+    font-family: 'verdana', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    display: none;
+    
+    
+}
+
+
+#modal p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1em 0 1em;
+}
+
+#modal input,
+#pay-btn,
+#checkout-btn {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1.3px solid #757575;
+    border-radius: 2px;
+}
+
+#modal input {
+    
+    
+}
+
+
+
+#pay-btn,
+#checkout-btn {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: #fff;
+    font-weight: 700;
+    margin-top: 1em;
+    width: 100%;
+}
+
+#modal-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    padding: 0 1em;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+#modal-cvv{
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    
+}
